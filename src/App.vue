@@ -10,6 +10,9 @@
 export default {
   name: 'App',
   components: {
+  },
+  created () {
+    document.title = "Mga Ka-Lockdown";
   }
 }
 </script>
